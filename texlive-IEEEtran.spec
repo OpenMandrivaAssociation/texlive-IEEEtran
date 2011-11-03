@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/IEEEtran
+# catalog-date 2008-09-30 18:04:42 +0200
+# catalog-license lppl
+# catalog-version 1.7a
 Name:		texlive-IEEEtran
 Version:	1.7a
 Release:	1
@@ -66,6 +72,7 @@ conferences.
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow_ctl_LTR.pdf
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow_doc.pdf
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/tux.eps
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,3 +83,5 @@ conferences.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
