@@ -6,7 +6,7 @@
 # catalog-version 1.7a
 Name:		texlive-IEEEtran
 Version:	1.7a
-Release:	1
+Release:	2
 Summary:	Document class for IEEE Transactions journals and conferences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
