@@ -1,12 +1,12 @@
-# revision 15878
+# revision 28697
 # category Package
 # catalog-ctan /macros/latex/contrib/IEEEtran
-# catalog-date 2008-09-30 18:04:42 +0200
+# catalog-date 2013-01-02 11:09:21 +0100
 # catalog-license lppl
-# catalog-version 1.7a
+# catalog-version 1.8
 Name:		texlive-IEEEtran
-Version:	1.7a
-Release:	2
+Version:	1.8
+Release:	1
 Summary:	Document class for IEEE Transactions journals and conferences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
@@ -56,6 +56,7 @@ conferences.
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_conf.tex
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_jrnl.tex
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_jrnl_compsoc.tex
+%doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_jrnl_transmag.tex
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/changelog.txt
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/font_install_how.txt
 %doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow.tex
@@ -73,18 +74,3 @@ conferences.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.7a-2
-+ Revision: 752689
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.7a-1
-+ Revision: 718696
-- texlive-IEEEtran
-- texlive-IEEEtran
-- texlive-IEEEtran
-- texlive-IEEEtran
-- texlive-IEEEtran
-
