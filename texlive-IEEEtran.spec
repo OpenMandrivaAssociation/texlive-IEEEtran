@@ -1,12 +1,6 @@
-# revision 28697
-# category Package
-# catalog-ctan /macros/latex/contrib/IEEEtran
-# catalog-date 2013-01-02 11:09:21 +0100
-# catalog-license lppl
-# catalog-version 1.8
 Name:		texlive-IEEEtran
-Version:	1.8
-Release:	9
+Version:	1.8b
+Release:	1
 Summary:	Document class for IEEE Transactions journals and conferences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
@@ -34,36 +28,10 @@ conferences.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bib/IEEEtran/IEEEabrv.bib
-%{_texmfdistdir}/bibtex/bib/IEEEtran/IEEEexample.bib
-%{_texmfdistdir}/bibtex/bib/IEEEtran/IEEEfull.bib
-%{_texmfdistdir}/bibtex/bst/IEEEtran/IEEEtran.bst
-%{_texmfdistdir}/bibtex/bst/IEEEtran/IEEEtranN.bst
-%{_texmfdistdir}/bibtex/bst/IEEEtran/IEEEtranS.bst
-%{_texmfdistdir}/bibtex/bst/IEEEtran/IEEEtranSA.bst
-%{_texmfdistdir}/bibtex/bst/IEEEtran/IEEEtranSN.bst
-%{_texmfdistdir}/tex/latex/IEEEtran/IEEEtran.cls
-%{_texmfdistdir}/tex/latex/IEEEtran/IEEEtrantools.sty
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/IEEEtran_HOWTO.pdf
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/IEEEtran_bst_HOWTO.pdf
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/IEEEtrantools_doc.txt
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/README
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/README.bibtex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/README.extras
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/README.testflow
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/README.tools
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_adv.tex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_conf.tex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_jrnl.tex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_jrnl_compsoc.tex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/bare_jrnl_transmag.tex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/changelog.txt
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/font_install_how.txt
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow.tex
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow_ctl_A4.pdf
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow_ctl_LTR.pdf
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/testflow_doc.pdf
-%doc %{_texmfdistdir}/doc/latex/IEEEtran/tux.eps
+%{_texmfdistdir}/bibtex/bib/IEEEtran
+%{_texmfdistdir}/bibtex/bst/IEEEtran
+%{_texmfdistdir}/tex/latex/IEEEtran
+%doc %{_texmfdistdir}/doc/latex/IEEEtran
 
 #-----------------------------------------------------------------------
 %prep
