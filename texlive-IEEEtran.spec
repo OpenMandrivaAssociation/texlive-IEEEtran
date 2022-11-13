@@ -1,16 +1,17 @@
-Name:		texlive-IEEEtran
-Version:	1.8b
-Release:	2
+Name:		texlive-ieeetran
+Version:	59672
+Release:	1
 Summary:	Document class for IEEE Transactions journals and conferences
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ieeetran
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/IEEEtran.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/IEEEtran.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ieeetran.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ieeetran.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
+%rename texlive-IEEEtran
 
 %description
 The class and its BibTeX style enable authors to produce
@@ -19,23 +20,23 @@ Electronics Engineers (IEEE) transactions, journals and
 conferences.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bib/IEEEtran
-%{_texmfdistdir}/bibtex/bst/IEEEtran
-%{_texmfdistdir}/tex/latex/IEEEtran
-%doc %{_texmfdistdir}/doc/latex/IEEEtran
+%{_texmfdistdir}/bibtex/bib/ieeetran
+%{_texmfdistdir}/bibtex/bst/ieeetran
+%{_texmfdistdir}/tex/latex/ieeetran
+%doc %{_texmfdistdir}/doc/latex/ieeetran
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
