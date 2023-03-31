@@ -1,6 +1,6 @@
 Name:		texlive-ieeetran
 Version:	59672
-Release:	1
+Release:	2
 Summary:	Document class for IEEE Transactions journals and conferences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ieeetran
