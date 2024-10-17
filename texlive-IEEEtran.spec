@@ -3,7 +3,7 @@ Version:	59672
 Release:	2
 Summary:	Document class for IEEE Transactions journals and conferences
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ieeetran
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ieeetran
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ieeetran.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ieeetran.doc.r%{version}.tar.xz
